@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-container {
+    margin: 1.5rem 1.5rem;
+}
+
+
+.nested-right {
+    background-color: #01e165;
+    border: none;
+    height: 50px;
+}
+
+.nested-left {
+    background-color: #01e165;
+    border: none;
+    height: 50px;
+}
+
+.row .big-container div:first-child {
+    border-right: 2px solid #006cfa;
+}
+
+.row .big-container div:last-child {
+    border-left: 2px solid #006cfa;
+}
+
+.col-height {
+    height: 1.5rem;
+}
+

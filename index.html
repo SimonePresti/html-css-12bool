@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>12Bool</title>
 
-    <link rel="stylesheet" href="./css/12BoolFlex.css">
+    <link rel="stylesheet" href="./css/12Bool.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <main class="container">
@@ -50,16 +51,28 @@
                 <div class="col-1 flex justify-centered items-centered">1 Col</div>
             </div>
             <div class="row">
-                <div class="col-6 flex justify-centered items-centered">
-                    <div class="col-2 flex justify-centered items-centered">Nested 2 col</div>
-                    <div class="col-2 flex justify-centered items-centered">Nested 2 col</div>
-                    <div class="col-8 flex justify-centered items-centered">Nested 8 col</div>
+                <div class="col-6">
+                    <div class="row big-container flex justify-centered items-centered">
+                        <div class="col-2 nested-left flex justify-centered items-centered">Nested 2 col</div>
+                        <div class="col-2 nested-left flex justify-centered items-centered">Nested 2 col</div>
+                        <div class="col-8 nested-left flex justify-centered items-centered">Nested 8 col</div>
+                    </div>
                 </div>
-                <div class="col-6 flex justify-centered items-centered">
-                    <div class="col-6 flex justify-centered items-centered">Nested 6 col</div>
-                    <div class="col-6 flex justify-centered items-centered">Nested 6 col</div>
+
+                <div class="col-6">
+                    <div class="row big-container">
+                        <div class="col-6 nested-right flex justify-centered items-centered">Nested 6 col</div>
+                        <div class="col-6 nested-right flex justify-centered items-centered">Nested 6 col</div>
+
+                    </div>
+                </div>
+                
 
                 </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12 col-height flex justify-centered items-centered"></div>
             </div>
     </main>
 
